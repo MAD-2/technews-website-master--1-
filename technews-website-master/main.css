@@ -40,6 +40,9 @@ hr {
 }
 
 /* header */
+.nav-barSearch{
+
+}
 
 .top-head {
   display: flex;
@@ -67,28 +70,24 @@ hr {
   height: 0;
   overflow: hidden;
 }
+.d-flex{
+  display: block;
+  padding: 20px;
+  margin: 10px;
+  align-items: center;
+}
 
 .show-nav {
   height: auto;
+  align-items: center;
+
+}
+category{
+  display: list-item;
 }
 
 /********************/
 
-.nav-bar ul li {
-  text-align: center;
-  display: block;
-  padding: 15px 0;
-  transition: all 1s ease-in-out;
-}
-
-.nav-bar ul li:hover {
-  background: #0e0e0e;
-}
-
-.nav-bar ul li a {
-  color: #fff;
-  text-transform: uppercase;
-}
 
 .nav-bar ul li a:hover {
   text-decoration: underline;
@@ -96,9 +95,6 @@ hr {
 
 /* social -icons */
 
-.social-icons {
-  display: none;
-}
 
 /* banner */
 
