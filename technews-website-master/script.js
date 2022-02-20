@@ -3,7 +3,7 @@ let city="Riyadh";
 let weatherkey=`d73666192d8d4c66a8526156bc6749e0`;
 btn.addEventListener("click",(evenr)=>{
     event.preventDefault()
-    city=document.getElementById("Weather-Input").Value;
+    city=document.getElementById("Weathe-Input").Value;
     console.log(city)
     weatherFun;
 })
