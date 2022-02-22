@@ -40,6 +40,19 @@ for(let head of heading){
 
 
 
+function fetchcategory(){
+    fetch(categoryURL).then(res=>{
+        res.json().then(data=>{
+            console.log(data.articles,"cat");
+            let temp= data.articles.map(article=>`
+            <div class="col-md-6 my-2">
+            <div class="card"> 
+            
+            `)
+        })
+    })
+}
+
 
 
 
