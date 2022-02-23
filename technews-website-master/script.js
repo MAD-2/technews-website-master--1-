@@ -47,8 +47,21 @@ function fetchcategory(){
             let temp= data.articles.map(article=>`
             <div class="col-md-6 my-2">
             <div class="card"> 
+            <img src="${article.urlToImage}" class="card-img-top" style="height:200px" alt="...">
+            <div class="card-body">
+            <div style="height:150px;overflow:hidden">
+            <h5 class="card-title">${article.title}</h5>
+            <p class="card-title">${article.author}</p>
+            <h5 class="card-title">${article.content}</h5>
+            </div>
+            <a href="${article.url}"class="btn btn-primary mt-3" target=_blank">Further more</a> 
+</div> 
+</div>
+</div>
+
+            `
             
-            `)
+            )
         })
     })
 }
